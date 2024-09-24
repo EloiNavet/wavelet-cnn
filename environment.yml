@@ -1,0 +1,13 @@
+# conda env create -f environment.yml
+name: wavelets-cnn
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pytorch
+  - torchvision
+  - cudatoolkit=11.3
+  - tqdm
+  - tensorboard
+  - pywavelets
